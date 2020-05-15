@@ -2,7 +2,7 @@
 
 #### 开始之前
 >使用此组件需要依赖小程序基础库 2.7.0 以上版本，低版本需做[兼容处理](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html)。
-
+>更多组件问题，请阅读[官方文档。](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)
 
 #### 安装教程
 
