@@ -60,8 +60,8 @@ Page({
   },
 
   //清空编辑器事件
-  clearEvent(){
-    console.log('[clearEvent callback]')
+  clearBeforeEvent(){
+    console.log('[clearBeforeEvent callback]')
     wx.showModal({
       cancelText: '取消',
       confirmText: '确认',
@@ -91,6 +91,7 @@ Page({
       count: 1,
       success: res => {
         let path = res.tempFilePaths[0];
+        //调用子组件方法，图片应先上传再插入，不然预览时无法查看图片。
         richText.insertImageMethod(path).then(res => {
           console.log('[insert image success callback]=>', res)
         }).catch(res => {

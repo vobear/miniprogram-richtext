@@ -4,7 +4,7 @@
   placeholder='{{placeholder}}' 
   formatDate='YY/MM/DD'
   buttonTxt='保存'
-  bind:clearEvent='clearEvent'
+  bind:clearBeforeEvent='clearBeforeEvent'
   bind:clearSuccess='clearSuccess'
   bind:undo='undo'
   bind:restore='restore'

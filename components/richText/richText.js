@@ -59,7 +59,7 @@ Component({
           this.restore();
           break;
         case 'clear': //清除
-          this.clearEvent();
+          this.clearBeforeEvent();
           break;
       }
     },
@@ -142,8 +142,8 @@ Component({
     },
 
     //清空编辑器内容前的事件
-    clearEvent() {
-      this.triggerEvent('clearEvent');
+    clearBeforeEvent() {
+      this.triggerEvent('clearBeforeEvent');
     },
 
     //清除当前选区的样式
