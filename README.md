@@ -69,7 +69,7 @@ Page({
       count: 1,
       success: res => {
         let path = res.tempFilePaths[0];
-        //调用子组件方法，图片应先上传再插入，不然预览时无法查看图片。
+        //调用子组件（富文本组件）方法，图片应先上传再插入，不然预览时无法查看图片。
         richText.insertImageMethod(path).then(res => {
           console.log('[insert image success callback]=>', res)
         }).catch(res => {
