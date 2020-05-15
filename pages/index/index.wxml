@@ -1,0 +1,22 @@
+<richText 
+  id='richText' 
+  readOnly='{{readOnly}}'
+  placeholder='{{placeholder}}' 
+  formatDate='YY/MM/DD'
+  buttonTxt='保存'
+  bind:clearEvent='clearEvent'
+  bind:clearSuccess='clearSuccess'
+  bind:undo='undo'
+  bind:restore='restore'
+  bind:onEditorReady='onEditorReady' 
+  bind:bindfocus='bindfocus' 
+  bind:bindblur='bindblur' 
+  bind:bindinput='bindinput' 
+  bind:insertImageEvent='insertImageEvent' 
+  bind:getEditorContent='getEditorContent'></richText>
+
+<view class="tip">备注：
+<view>1.改变图片大小，按住节点一小会儿再拖动。别问我为什么，谁还没遇到点难解决需求了。</view>
+<view>2.预览内容中，图片仅支持网络url。</view>
+</view>
+<view class="preview" bindtap="preview">预览</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "richText":"../../components/richText/richText"
+  },
+  "navigationBarTitleText": "富文本编辑"
+}

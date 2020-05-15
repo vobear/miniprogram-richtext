@@ -1,0 +1,16 @@
+.tip{
+  color: #999;
+  font-size: 24rpx;
+  padding: 0 20rpx 20rpx 20rpx;
+}
+.preview{
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  text-align: center;
+  font-size:26rpx;
+  color: #ffffff;
+  background-color: #bf98d2;
+}
